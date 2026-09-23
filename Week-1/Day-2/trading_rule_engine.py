@@ -11,7 +11,7 @@ if trend == "bullish":
     elif price > 4400:
         print("BUY")
 
-    elif price >= 4400:
+    else:
         print("WAIT")
 
 elif trend == "bearish":
@@ -21,7 +21,7 @@ elif trend == "bearish":
     elif price < 4400 :
         print("SELL")
 
-    elif price >= 4400 :
+    else:
         print("WAIT")
 
 
